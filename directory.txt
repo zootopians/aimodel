@@ -1,0 +1,3 @@
+june 8-seekdude
+so what im tryign to do today is add a reader class that can read the text from the user
+
