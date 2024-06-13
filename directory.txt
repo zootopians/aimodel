@@ -1,3 +1,6 @@
 june 8-seekdude
 so what im tryign to do today is add a reader class that can read the text from the user
 
+june 13 - seekdude
+adding user control but im still not clear about how file works so need to work in that 
+
