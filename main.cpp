@@ -15,6 +15,9 @@ class reader {
         cin>>userText;
     }
     void analyseText(){
+        for (int i;i<=userText.length();i++){
+           
+        }
     }
 
 };
