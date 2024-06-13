@@ -1,7 +1,10 @@
 #include <iostream>
+#include <fstream>
+#include <string>
+
 using namespace std;
 
-string userid;
+
 
 class reader {
     private:
@@ -11,7 +14,7 @@ class reader {
 
     public:
     void inputText (){
-        cout<<userid<<">>";
+        
         cin>>userText;
     }
     void analyseText(){
@@ -19,5 +22,23 @@ class reader {
            
         }
     }
+};
+
+class usercontrol {
+    private:
+        string password ,a ;
+    public:
+        string userid ;
+        int addUser (){
+            cout << "creating a user ID:"<< endl << "username : ";
+            cin >> userid;
+            cout << "password : ";
+            cin >> a ;
+            cout << "re-enter password : ";
+            cin >> password;
+            ofstream MyFile("users.txt");
+            MyFile << userid << endl << "." << password ;
+            MyFile.close();
+        }
 
 };
